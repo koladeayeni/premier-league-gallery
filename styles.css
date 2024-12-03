@@ -6,7 +6,7 @@ body {
 
 /* Header Styles */
 .bg-header {
-    background-image: url('images/epl-header.jpg'); /* Replace with your EPL banner image */
+    background-image: url('images/epl-header.jpg');
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -76,7 +76,7 @@ footer a:hover {
     color: #ffffff; /* White on hover */
 }
 
-/* Add transition effect for smooth color changes */
+/* transition effect for smooth color changes */
 a, .card {
     transition: color 0.3s, background-color 0.3s, transform 0.3s;
 }
