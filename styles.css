@@ -1,0 +1,82 @@
+/* General Body Styles */
+body {
+    background-color: #000000; /* Black background for the entire page */
+    color: #ffffff; /* White text for readability */
+}
+
+/* Header Styles */
+.bg-header {
+    background-image: url('images/epl-header.jpg'); /* Replace with your EPL banner image */
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: #ffffff; /* White text for contrast */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #121212; /* Dark gray for contrast */
+}
+
+.navbar-brand, .nav-link {
+    color: #ffffff !important; /* White navigation text */
+}
+
+.nav-link:hover {
+    color: #ffcc00 !important; /* Gold hover effect for links */
+}
+
+/* Gallery Section */
+.container {
+    background-color: #1a1a1a; /* Slightly lighter black for the gallery container */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Card Styles */
+.card {
+    background-color: #1f1f1f; /* Dark gray card background */
+    border: 1px solid #333333; /* Subtle border for differentiation */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4); /* Softer shadow */
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 8px; /* Rounded edges */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.6); /* More prominent shadow on hover */
+}
+
+/* Card Images */
+.card-img-top {
+    padding: 10px;
+    background-color: #121212; /* Very dark gray to highlight logos */
+    border-radius: 8px;
+}
+
+/* Card Text */
+.card-title, .card-text {
+    color: #ffffff; /* White text for readability */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #121212; /* Dark gray footer */
+    color: #ffffff; /* White text */
+    padding: 15px;
+}
+
+footer a {
+    color: #ffcc00; /* Gold footer links */
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ffffff; /* White on hover */
+}
+
+/* Add transition effect for smooth color changes */
+a, .card {
+    transition: color 0.3s, background-color 0.3s, transform 0.3s;
+}
